@@ -27,3 +27,8 @@ Projekt für das Fach CROSS
 * =
 
 Soll sich über die komplette Breite ausdehnen
+
+## Preview
+![](www/img/preview.PNG)
+
+Sorry for this bad design. It's only a small demo project how to work with cordova. :)
