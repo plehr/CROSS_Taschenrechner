@@ -1,24 +1,58 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
-        <meta name="color-scheme" content="light dark">
-        <link rel="stylesheet" href="css/calc.css">
-        <title>Taschenrechner</title>
-    </head>
-    <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/calc.css">
+    <title>Taschenrechner</title>
+</head>
+
+<body>
+    <div class="app">
+        <h1>Taschenrechner</h1>
+        <div id='tr'>
+            <div id='view' class='row'></div>
+            <div id='matrix'>
+                <div id='matrix_1' class='row'>
+                    <button id='btn_7'>7</button>
+                    <button id='btn_8'>8</button>
+                    <button id='btn_9'>9</button>
+                    <button id='btn_div'>/</button>
+                </div>
+
+                <div id='matrix_2' class='row'>
+                    <button id='btn_4'>4</button>
+                    <button id='btn_5'>5</button>
+                    <button id='btn_6'>6</button>
+                    <button id='btn_mul'>*</button>
+                </div>
+
+                <div id='matrix_3' class='row'>
+                    <button id='btn_1'>1</button>
+                    <button id='btn_2'>2</button>
+                    <button id='btn_3'>3</button>
+                    <button id='btn_sub'>-</button>
+                </div>
+                <div id='matrix_4' class='row'>
+                    <button id='btn_0'>0</button>
+                    <button id='btn_swp'>+/-</button>
+                    <button id='btn_dot'>,</button>
+                    <button id='btn_add'>+</button>
+                </div>
+            </div>
+            <div id='sum' class='row'>
+                <button id='btn_sum'>Summe</button>
             </div>
         </div>
-        <script src="cordova.js"></script>
-        <script src="js/index.js"></script>
-    </body>
+    </div>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
 </html>
