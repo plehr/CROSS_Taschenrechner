@@ -1,0 +1,12 @@
+.row{
+width: 100%;
+}
+button {
+    width: 24%;
+}
+input {
+    background-color: azure;
+}
+app {
+    background-color: black;
+}
