@@ -21,7 +21,7 @@ function init() {
 }
 
 function sum() {
-    console.log("Ich berechne: " + field_input.value + " und komme auf das Ergebnis: " + eval(field_input.value))
+    console.log("Ich berechne: " + field_input.value + " und komme auf das Ergebnis: " + eval(field_input.value));
     return eval(field_input.value)
 }
 

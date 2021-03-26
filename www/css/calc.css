@@ -1,12 +1,42 @@
-.row{
-width: 100%;
+html {
+    background-color: rgb(133, 131, 115);
 }
+
+h1 {
+    color: rgb(146, 223, 32)
+}
+
+input {
+    font-size: larger;
+    background-color: rgb(133, 131, 115);
+    color: rgb(238, 12, 12);
+    text-align: right;
+    margin-bottom: 30px;
+}
+input[type="text"], textarea {
+
+    background-color : #d1d1d1df; 
+  
+  }
+
+.row {
+    width: 100%;
+}
+
 button {
-    width: 24%;
+    /* width: 24%; */
+    font-size: 120%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    padding: 5%;
+    background-color: rgb(133, 131, 115);
+    border: 1%;
+    border-color: rgb(148, 148, 148);
+    border-radius: 7px;
+    color:aqua
 }
+
 input {
     background-color: azure;
-}
-app {
-    background-color: black;
 }
